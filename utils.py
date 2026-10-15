@@ -1,9 +1,3 @@
-"""
-utils.py
-Funções auxiliares reutilizadas em todo o projeto.
-"""
-
-
 def formatar_moeda(valor):
     """Formata um número no padrão brasileiro: 1234.5 -> 'R$ 1.234,50'."""
     texto = f"{abs(valor):,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
