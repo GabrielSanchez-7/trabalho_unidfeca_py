@@ -1,15 +1,3 @@
-"""
-imoveis.py
-Classes que representam os imóveis da R.M Imóveis e suas regras de cálculo.
-
-Hierarquia:
-    Imovel (classe base)
-    ├── ImovelResidencial  (regras comuns a Casa e Apartamento)
-    │   ├── Apartamento
-    │   └── Casa
-    └── Estudio
-"""
-
 
 class Imovel:
     """Classe base. Define o que todo imóvel possui e como o aluguel é formado."""
